@@ -1,0 +1,16 @@
+# Check status of your working directory
+git status
+
+# Stage changes for commit
+git add <file>              # Stage a specific file
+git add .                   # Stage all changes
+git add -p                  # Stage changes interactively
+
+# Commit changes
+git commit -m "Commit message"
+git commit -am "Commit message"  # Stage and commit tracked files
+
+# View changes
+git diff                    # Changes in working directory
+git diff --staged           # Changes staged for commit
+git diff <branch1> <branch2>  # Compare branches
